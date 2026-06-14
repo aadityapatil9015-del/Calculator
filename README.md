@@ -57,7 +57,7 @@ cd Calculator
 ### Install dependencies
 
 ```bash
-pip install PyQt5
+pip install -r requirements.txt
 ```
 
 ### Run the application
