@@ -38,8 +38,8 @@ Division by zero protection
 
 ## Screnchots
 
-### ![Calculator Screenshot](screenshots/Calculator.png)
-
+### ![Dark Theme](screenshots/Black_UI.png)
+### ![Light Theme](screenshots/White_UI.png)
 ## Technologies Used
 
 - Python 3
@@ -77,6 +77,10 @@ python main.py
 | Right Arrow | Next Expression|
 | C | Clear Display|
 | ANS | Insert Previous Result |
+### New keyboard controls
+| Key | Action |
+| ( | Insert left bracket|
+| ) | Insert right bracket|
 
 ## Learning Outcomes
 
@@ -100,6 +104,31 @@ This project helped me practice:
 - Memory operations (M+, M-, MR)
 - Better UI 
 
+
+##changelog
+
+### v1.1 - 20 August 2026
+#### Added
+
+- Parenthesis support
+- Unary minus handling
+- Consecutive operator validation
+- Implicit multiplication for cases like '2(3+4)'
+- 'ANS' handling with expression
+- Change of UI (Darl to Light and vice versa)
+
+#### Fixes
+- Prevented invalid inputs like '+--'
+- Fixed operator handling after 'ANS
+- Fixed decimal input after an operator
+- Fixed bracket closing validation
+- Improved expression parsing and evaluation
+
+#### Future improvements
+- Addition on mathmatical functions like trignometric,etc
+- Ability to input between characters
+- Furthur UI imporvement
+
 ## Author
 
-Aaditya Patil
+Aditya Patil
